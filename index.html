@@ -17,7 +17,7 @@
     <!-- Navigation -->
     <nav class="fixed top-0 w-full bg-white shadow-lg z-40">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <div class="text-2xl font-bold text-blue-900">BidShire</div>
+            <img src="logo1.png" alt="BidShire" class="h-10 w-auto">
             <div class="hidden md:flex space-x-8">
                 <a href="#problem" class="text-gray-700 hover:text-red-600 font-medium">The Problem</a>
                 <a href="#solution" class="text-gray-700 hover:text-red-600 font-medium">How It Works</a>
@@ -42,14 +42,20 @@
     </div>
 
     <!-- Hero Section -->
-    <section class="min-h-screen bg-gradient-to-br from-blue-900 to-blue-800 flex items-center justify-center pt-20">
-        <div class="container mx-auto px-6 text-center text-white">
+    <section class="min-h-screen hero-bg flex items-center justify-center pt-20">
+        <div class="hero-overlay"></div>
+        <div class="container mx-auto px-6 text-center text-white relative z-10">
             <h1 class="text-5xl md:text-7xl font-bold mb-6">We Don't Replace Your estimator, We Back Them Up</h1>
             <p class="text-xl md:text-2xl mb-8 opacity-90">Stop getting disqualified for paperwork errors</p>
             <p class="text-lg md:text-xl italic mb-12 text-red-400">Propping up your estimator. One document at a time.</p>
-            <button onclick="scrollToSection('solution')" class="bg-red-600 hover:bg-red-700 text-white text-xl font-bold px-12 py-4 rounded-lg transition duration-300 transform hover:scale-105">
-                Secure Your Bid Now
-            </button>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <button onclick="scrollToSection('contact')" class="bg-red-600 hover:bg-red-700 text-white text-xl font-bold px-12 py-4 rounded-lg transition duration-300 transform hover:scale-105">
+                    Register for Free Scan
+                </button>
+                <button onclick="scrollToSection('solution')" class="bg-transparent border-2 border-white hover:bg-white hover:text-blue-900 text-white text-xl font-bold px-12 py-4 rounded-lg transition duration-300 transform hover:scale-105">
+                    See How It Works
+                </button>
+            </div>
         </div>
     </section>
 
