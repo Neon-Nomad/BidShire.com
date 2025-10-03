@@ -17,7 +17,7 @@ Provides historical pricing data, competitor analysis, and market averages to he
 
 Data Backup & Compliance
 
-Automatically archives and secures all calculation data, assumptions, and critical calculation data related to every bid, ensuring regulatory compliance and easy retrieval for dispute resolution.
+Automatically archives and secures all documentation, assumptions, and critical calculation data related to every bid, ensuring regulatory compliance and easy retrieval for dispute resolution.
 
 Risk Reduction
 
